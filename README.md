@@ -1,26 +1,35 @@
-# 🖼️ Full Stack Image Gallery App
+# 🎬 Video Publishing App
 
-A full-stack web application built using **Next.js**, **NextAuth.js** for authentication, **ImageKit** for image uploads and CDN, and **MongoDB** for persistent storage. Users can register, log in, upload images to the cloud, and manage their image gallery.
----
+A full-stack **Video Publishing Platform** built using **Next.js**. Users can upload, view, and publish videos, with support for authentication, metadata handling, and a responsive frontend UI.
+
 ## 🚀 Tech Stack
-- **Frontend:** Next.js (App Router + React + Tailwind CSS)
-- **Authentication:** NextAuth.js (OAuth + Credentials)
-- **Cloud Storage:** ImageKit.io
-- **Backend Database:** MongoDB + Mongoose
-- **Image CDN:** ImageKit Optimized URLs
----
-## 📸 Features
-- User registration and login (NextAuth)
-- Upload images to ImageKit
-- Image optimization and CDN delivery
-- User-specific galleries
-- Responsive and mobile-friendly UI
-- Secure API routes using JWT sessions
+
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Backend**: Next.js API Routes / Node.js
+- **Database**: MongoDB (via Mongoose)
+- **Storage**: Cloudinary / AWS S3 (for video upload)
+- **Authentication**: NextAuth.js (with Google, GitHub, or credentials)
+- **Deployment**: Vercel / Render / Railway
+
 ---
 
-## 🔧 Installation & Setup
+## 📦 Features
 
-1. **Clone the repository**
+- 🔐 User Authentication (OAuth and Credentials)
+- 🎥 Video Upload (with thumbnail support)
+- 📝 Video Metadata (title, description, category, etc.)
+- 🌐 Public Video Gallery
+- 👤 My Videos Page (user dashboard)
+- 📁 Cloud Storage Integration
+- 🧼 Input validation and error handling
+- 📱 Fully Responsive UI
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/yourusername/image-gallery-app.git
-cd image-gallery-app
+git clone https://github.com/yourusername/video-publisher-app.git
+cd video-publisher-app

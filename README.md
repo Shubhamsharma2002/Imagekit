@@ -33,3 +33,5 @@ A full-stack **Video Publishing Platform** built using **Next.js**. Users can up
 ```bash
 git clone https://github.com/yourusername/video-publisher-app.git
 cd video-publisher-app
+npm i
+```

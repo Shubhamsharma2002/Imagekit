@@ -1,7 +1,8 @@
 import mongoose from "mongoose";
-
+// uri from env
 const MONGODB_URI = process.env.MONGODB_URI!;
 if (!MONGODB_URI) {
+  // throwing not found error
   throw new Error("plese define mongouri in env varialbe");
 }
 
